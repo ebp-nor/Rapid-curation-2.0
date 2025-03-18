@@ -35,6 +35,8 @@ elif maxlen == 11:
     agp_df=pd.DataFrame(agp_lines,columns=['chr','chr_start','chr_end','#_scaffs','W','scaff','scaff_start','scaff_end','ori','painted','tag'])
 elif maxlen == 14:
     agp_df=pd.DataFrame(agp_lines,columns=['chr','chr_start','chr_end','#_scaffs','W','scaff','scaff_start','scaff_end','ori','painted','tag','tag2','blank', 'blank'])
+elif maxlen == 16:
+    agp_df=pd.DataFrame(agp_lines,columns=['chr','chr_start','chr_end','#_scaffs','W','scaff','scaff_start','scaff_end','ori','painted','tag','tag2','tag3', 'blank', 'blank', 'blank'])
 else:
     agp_df=pd.DataFrame(agp_lines,columns=['chr','chr_start','chr_end','#_scaffs','W','scaff','scaff_start','scaff_end','ori','painted','tag','blank'])
 
